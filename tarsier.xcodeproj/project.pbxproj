@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF62CFEE26EC45D200331573 /* tarsierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF62CFED26EC45D200331573 /* tarsierApp.swift */; };
+		DF62CFF026EC45D200331573 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF62CFEF26EC45D200331573 /* ContentView.swift */; };
+		DF62CFF226EC45D500331573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF62CFF126EC45D500331573 /* Assets.xcassets */; };
+		DF62CFF526EC45D500331573 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF62CFF426EC45D500331573 /* Preview Assets.xcassets */; };
+		DF62D00126EC45D500331573 /* tarsierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF62D00026EC45D500331573 /* tarsierTests.swift */; };
+		DF62D00C26EC45D500331573 /* tarsierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF62D00B26EC45D500331573 /* tarsierUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF62CFFD26EC45D500331573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF62CFE226EC45D200331573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF62CFE926EC45D200331573;
+			remoteInfo = tarsier;
+		};
+		DF62D00826EC45D500331573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF62CFE226EC45D200331573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF62CFE926EC45D200331573;
+			remoteInfo = tarsier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF62CFEA26EC45D200331573 /* tarsier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tarsier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF62CFED26EC45D200331573 /* tarsierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tarsierApp.swift; sourceTree = "<group>"; };
+		DF62CFEF26EC45D200331573 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF62CFF126EC45D500331573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF62CFF426EC45D500331573 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF62CFF626EC45D500331573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF62CFF726EC45D500331573 /* tarsier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tarsier.entitlements; sourceTree = "<group>"; };
+		DF62CFFC26EC45D500331573 /* tarsierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tarsierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF62D00026EC45D500331573 /* tarsierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tarsierTests.swift; sourceTree = "<group>"; };
+		DF62D00226EC45D500331573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF62D00726EC45D500331573 /* tarsierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tarsierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF62D00B26EC45D500331573 /* tarsierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tarsierUITests.swift; sourceTree = "<group>"; };
+		DF62D00D26EC45D500331573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF62CFE726EC45D200331573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF62CFF926EC45D500331573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF62D00426EC45D500331573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF62CFE126EC45D200331573 = {
+			isa = PBXGroup;
+			children = (
+				DF62CFEC26EC45D200331573 /* tarsier */,
+				DF62CFFF26EC45D500331573 /* tarsierTests */,
+				DF62D00A26EC45D500331573 /* tarsierUITests */,
+				DF62CFEB26EC45D200331573 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF62CFEB26EC45D200331573 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF62CFEA26EC45D200331573 /* tarsier.app */,
+				DF62CFFC26EC45D500331573 /* tarsierTests.xctest */,
+				DF62D00726EC45D500331573 /* tarsierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF62CFEC26EC45D200331573 /* tarsier */ = {
+			isa = PBXGroup;
+			children = (
+				DF62CFED26EC45D200331573 /* tarsierApp.swift */,
+				DF62CFEF26EC45D200331573 /* ContentView.swift */,
+				DF62CFF126EC45D500331573 /* Assets.xcassets */,
+				DF62CFF626EC45D500331573 /* Info.plist */,
+				DF62CFF726EC45D500331573 /* tarsier.entitlements */,
+				DF62CFF326EC45D500331573 /* Preview Content */,
+			);
+			path = tarsier;
+			sourceTree = "<group>";
+		};
+		DF62CFF326EC45D500331573 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF62CFF426EC45D500331573 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF62CFFF26EC45D500331573 /* tarsierTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF62D00026EC45D500331573 /* tarsierTests.swift */,
+				DF62D00226EC45D500331573 /* Info.plist */,
+			);
+			path = tarsierTests;
+			sourceTree = "<group>";
+		};
+		DF62D00A26EC45D500331573 /* tarsierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF62D00B26EC45D500331573 /* tarsierUITests.swift */,
+				DF62D00D26EC45D500331573 /* Info.plist */,
+			);
+			path = tarsierUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF62CFE926EC45D200331573 /* tarsier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF62D01026EC45D500331573 /* Build configuration list for PBXNativeTarget "tarsier" */;
+			buildPhases = (
+				DF62CFE626EC45D200331573 /* Sources */,
+				DF62CFE726EC45D200331573 /* Frameworks */,
+				DF62CFE826EC45D200331573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tarsier;
+			productName = tarsier;
+			productReference = DF62CFEA26EC45D200331573 /* tarsier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF62CFFB26EC45D500331573 /* tarsierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF62D01326EC45D500331573 /* Build configuration list for PBXNativeTarget "tarsierTests" */;
+			buildPhases = (
+				DF62CFF826EC45D500331573 /* Sources */,
+				DF62CFF926EC45D500331573 /* Frameworks */,
+				DF62CFFA26EC45D500331573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF62CFFE26EC45D500331573 /* PBXTargetDependency */,
+			);
+			name = tarsierTests;
+			productName = tarsierTests;
+			productReference = DF62CFFC26EC45D500331573 /* tarsierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF62D00626EC45D500331573 /* tarsierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF62D01626EC45D500331573 /* Build configuration list for PBXNativeTarget "tarsierUITests" */;
+			buildPhases = (
+				DF62D00326EC45D500331573 /* Sources */,
+				DF62D00426EC45D500331573 /* Frameworks */,
+				DF62D00526EC45D500331573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF62D00926EC45D500331573 /* PBXTargetDependency */,
+			);
+			name = tarsierUITests;
+			productName = tarsierUITests;
+			productReference = DF62D00726EC45D500331573 /* tarsierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF62CFE226EC45D200331573 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					DF62CFE926EC45D200331573 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					DF62CFFB26EC45D500331573 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = DF62CFE926EC45D200331573;
+					};
+					DF62D00626EC45D500331573 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = DF62CFE926EC45D200331573;
+					};
+				};
+			};
+			buildConfigurationList = DF62CFE526EC45D200331573 /* Build configuration list for PBXProject "tarsier" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF62CFE126EC45D200331573;
+			productRefGroup = DF62CFEB26EC45D200331573 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF62CFE926EC45D200331573 /* tarsier */,
+				DF62CFFB26EC45D500331573 /* tarsierTests */,
+				DF62D00626EC45D500331573 /* tarsierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF62CFE826EC45D200331573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF62CFF526EC45D500331573 /* Preview Assets.xcassets in Resources */,
+				DF62CFF226EC45D500331573 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF62CFFA26EC45D500331573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF62D00526EC45D500331573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF62CFE626EC45D200331573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF62CFF026EC45D200331573 /* ContentView.swift in Sources */,
+				DF62CFEE26EC45D200331573 /* tarsierApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF62CFF826EC45D500331573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF62D00126EC45D500331573 /* tarsierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF62D00326EC45D500331573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF62D00C26EC45D500331573 /* tarsierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF62CFFE26EC45D500331573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF62CFE926EC45D200331573 /* tarsier */;
+			targetProxy = DF62CFFD26EC45D500331573 /* PBXContainerItemProxy */;
+		};
+		DF62D00926EC45D500331573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF62CFE926EC45D200331573 /* tarsier */;
+			targetProxy = DF62D00826EC45D500331573 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DF62D00E26EC45D500331573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF62D00F26EC45D500331573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DF62D01126EC45D500331573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = tarsier/tarsier.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"tarsier/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = tarsier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zonghuan.tarsier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DF62D01226EC45D500331573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = tarsier/tarsier.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"tarsier/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = tarsier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zonghuan.tarsier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DF62D01426EC45D500331573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = tarsierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zonghuan.tarsierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tarsier.app/Contents/MacOS/tarsier";
+			};
+			name = Debug;
+		};
+		DF62D01526EC45D500331573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = tarsierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zonghuan.tarsierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tarsier.app/Contents/MacOS/tarsier";
+			};
+			name = Release;
+		};
+		DF62D01726EC45D500331573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = tarsierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zonghuan.tarsierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = tarsier;
+			};
+			name = Debug;
+		};
+		DF62D01826EC45D500331573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = tarsierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zonghuan.tarsierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = tarsier;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF62CFE526EC45D200331573 /* Build configuration list for PBXProject "tarsier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF62D00E26EC45D500331573 /* Debug */,
+				DF62D00F26EC45D500331573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF62D01026EC45D500331573 /* Build configuration list for PBXNativeTarget "tarsier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF62D01126EC45D500331573 /* Debug */,
+				DF62D01226EC45D500331573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF62D01326EC45D500331573 /* Build configuration list for PBXNativeTarget "tarsierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF62D01426EC45D500331573 /* Debug */,
+				DF62D01526EC45D500331573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF62D01626EC45D500331573 /* Build configuration list for PBXNativeTarget "tarsierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF62D01726EC45D500331573 /* Debug */,
+				DF62D01826EC45D500331573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF62CFE226EC45D200331573 /* Project object */;
+}
